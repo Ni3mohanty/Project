@@ -1,12 +1,18 @@
 # Project
 Django Project Overview
 #########################################################
+
+
+
 1.A django app implementing django rest framework with only one api end point.
 2.Implements  User and ActivityPeriod orm models which have a one to many relationship.
 3.Default database is sqlite3
 4.Implements factory pattern to generate user and activityperiod objects.
 5.Implements custom management command to populate database initially.
 6.Uses factory_boy and  faker python packages for fake data generation.
+
+
+
 
 #################################################
 Instructions.
@@ -24,3 +30,12 @@ Instructions.
       
 7. Go to localhost:8000/ in your browser
 8.Shows the output in required json format in the webpage
+
+
+
+
+###################################
+
+Special Features
+
+Tested on aws elastic beanstalk
