@@ -19,10 +19,10 @@ Instructions.<br />
 4.install all the packages/requirements in requirements.txt.<br />
 5.open cmd in the extracted project directory.<br />
 6.run the following commands:-(commands are in "").<br />
-      6.1 "python manage.py makemigrations" ##########  migrates User and Activity Models and create a sqlitedb.<br />
-      6.2 "python manage.py migrate" #####creates database tables based on models.<br />
-      6.3 "python manage.py populatedb" #####custom management command to populate database with fake data.<br />
-      6.4 "python manage.py runserver" ####runs the django app on localhost:8000.<br />
+      6.1 "python manage.py makemigrations" (migrates User and Activity Models and create a sqlitedb.)<br />
+      6.2 "python manage.py migrate" (creates database tables based on models.)<br />
+      6.3 "python manage.py populatedb" (custom management command to populate database with fake data.)<br />
+      6.4 "python manage.py runserver" (runs the django app on localhost:8000.)<br />
       
       
 7. Go to localhost:8000/ in your browser.<br />
